@@ -1,13 +1,14 @@
 // Code your solutions in this file
 
-const cardArray = [];
+
  
 function writeCards(names, event) {
-    
+    let cardArray = [];
+
   for (let i = 0; i < names.length; i++) {
-    cardArray.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+    cardArray << `Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
- return names;
+ return cardArray;
 }
  
 writeCards(names, event);

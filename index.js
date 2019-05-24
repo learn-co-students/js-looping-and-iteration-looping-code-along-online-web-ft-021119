@@ -3,12 +3,20 @@
 
  
 function writeCards(names, event) {
-    let cardArray = [];
+    const cardArray = [];
 
   for (let i = 0; i < names.length; i++) {
-    cardArray << `Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+    cardArray.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
  return cardArray;
 }
  
 writeCards(names, event);
+
+function countdown(num) {
+    let count = num;
+    while (count > -1) {
+        console.log(count--);
+    }
+}
+    countdown(num);

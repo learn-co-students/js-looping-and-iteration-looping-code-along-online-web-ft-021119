@@ -8,8 +8,8 @@ return newArr;
 
 function countdown(number) {
 
-	for (let i = number; i >= 0; i--) {
-  console.log(i);
+	for (let t = number; t >= 0; t--) {
+  console.log(t);
 }
 
 }
